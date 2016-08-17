@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D695C381D63FB7400E29E8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D695C371D63FB7400E29E8D /* main.m */; };
+		9D695C3B1D63FB7400E29E8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D695C3A1D63FB7400E29E8D /* AppDelegate.m */; };
+		9D695C3E1D63FB7400E29E8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D695C3D1D63FB7400E29E8D /* ViewController.m */; };
+		9D695C411D63FB7400E29E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D695C3F1D63FB7400E29E8D /* Main.storyboard */; };
+		9D695C431D63FB7400E29E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D695C421D63FB7400E29E8D /* Assets.xcassets */; };
+		9D695C461D63FB7400E29E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D695C441D63FB7400E29E8D /* LaunchScreen.storyboard */; };
+		9D695C511D63FB7400E29E8D /* cell_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D695C501D63FB7400E29E8D /* cell_______Tests.m */; };
+		9D695C5C1D63FB7400E29E8D /* cell_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D695C5B1D63FB7400E29E8D /* cell_______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D695C4D1D63FB7400E29E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D695C2B1D63FB7400E29E8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D695C321D63FB7400E29E8D;
+			remoteInfo = "cell点击的背景颜色";
+		};
+		9D695C581D63FB7400E29E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D695C2B1D63FB7400E29E8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D695C321D63FB7400E29E8D;
+			remoteInfo = "cell点击的背景颜色";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D695C331D63FB7400E29E8D /* cell点击的背景颜色.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cell点击的背景颜色.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D695C371D63FB7400E29E8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D695C391D63FB7400E29E8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D695C3A1D63FB7400E29E8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D695C3C1D63FB7400E29E8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D695C3D1D63FB7400E29E8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D695C401D63FB7400E29E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D695C421D63FB7400E29E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D695C451D63FB7400E29E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D695C471D63FB7400E29E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D695C4C1D63FB7400E29E8D /* cell点击的背景颜色Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cell点击的背景颜色Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D695C501D63FB7400E29E8D /* cell_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "cell_______Tests.m"; sourceTree = "<group>"; };
+		9D695C521D63FB7400E29E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D695C571D63FB7400E29E8D /* cell点击的背景颜色UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cell点击的背景颜色UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D695C5B1D63FB7400E29E8D /* cell_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "cell_______UITests.m"; sourceTree = "<group>"; };
+		9D695C5D1D63FB7400E29E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D695C301D63FB7400E29E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D695C491D63FB7400E29E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D695C541D63FB7400E29E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D695C2A1D63FB7400E29E8D = {
+			isa = PBXGroup;
+			children = (
+				9D695C351D63FB7400E29E8D /* cell点击的背景颜色 */,
+				9D695C4F1D63FB7400E29E8D /* cell点击的背景颜色Tests */,
+				9D695C5A1D63FB7400E29E8D /* cell点击的背景颜色UITests */,
+				9D695C341D63FB7400E29E8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D695C341D63FB7400E29E8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D695C331D63FB7400E29E8D /* cell点击的背景颜色.app */,
+				9D695C4C1D63FB7400E29E8D /* cell点击的背景颜色Tests.xctest */,
+				9D695C571D63FB7400E29E8D /* cell点击的背景颜色UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D695C351D63FB7400E29E8D /* cell点击的背景颜色 */ = {
+			isa = PBXGroup;
+			children = (
+				9D695C391D63FB7400E29E8D /* AppDelegate.h */,
+				9D695C3A1D63FB7400E29E8D /* AppDelegate.m */,
+				9D695C3C1D63FB7400E29E8D /* ViewController.h */,
+				9D695C3D1D63FB7400E29E8D /* ViewController.m */,
+				9D695C3F1D63FB7400E29E8D /* Main.storyboard */,
+				9D695C421D63FB7400E29E8D /* Assets.xcassets */,
+				9D695C441D63FB7400E29E8D /* LaunchScreen.storyboard */,
+				9D695C471D63FB7400E29E8D /* Info.plist */,
+				9D695C361D63FB7400E29E8D /* Supporting Files */,
+			);
+			path = "cell点击的背景颜色";
+			sourceTree = "<group>";
+		};
+		9D695C361D63FB7400E29E8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D695C371D63FB7400E29E8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D695C4F1D63FB7400E29E8D /* cell点击的背景颜色Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9D695C501D63FB7400E29E8D /* cell_______Tests.m */,
+				9D695C521D63FB7400E29E8D /* Info.plist */,
+			);
+			path = "cell点击的背景颜色Tests";
+			sourceTree = "<group>";
+		};
+		9D695C5A1D63FB7400E29E8D /* cell点击的背景颜色UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D695C5B1D63FB7400E29E8D /* cell_______UITests.m */,
+				9D695C5D1D63FB7400E29E8D /* Info.plist */,
+			);
+			path = "cell点击的背景颜色UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D695C321D63FB7400E29E8D /* cell点击的背景颜色 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D695C601D63FB7400E29E8D /* Build configuration list for PBXNativeTarget "cell点击的背景颜色" */;
+			buildPhases = (
+				9D695C2F1D63FB7400E29E8D /* Sources */,
+				9D695C301D63FB7400E29E8D /* Frameworks */,
+				9D695C311D63FB7400E29E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cell点击的背景颜色";
+			productName = "cell点击的背景颜色";
+			productReference = 9D695C331D63FB7400E29E8D /* cell点击的背景颜色.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D695C4B1D63FB7400E29E8D /* cell点击的背景颜色Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D695C631D63FB7400E29E8D /* Build configuration list for PBXNativeTarget "cell点击的背景颜色Tests" */;
+			buildPhases = (
+				9D695C481D63FB7400E29E8D /* Sources */,
+				9D695C491D63FB7400E29E8D /* Frameworks */,
+				9D695C4A1D63FB7400E29E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D695C4E1D63FB7400E29E8D /* PBXTargetDependency */,
+			);
+			name = "cell点击的背景颜色Tests";
+			productName = "cell点击的背景颜色Tests";
+			productReference = 9D695C4C1D63FB7400E29E8D /* cell点击的背景颜色Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D695C561D63FB7400E29E8D /* cell点击的背景颜色UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D695C661D63FB7400E29E8D /* Build configuration list for PBXNativeTarget "cell点击的背景颜色UITests" */;
+			buildPhases = (
+				9D695C531D63FB7400E29E8D /* Sources */,
+				9D695C541D63FB7400E29E8D /* Frameworks */,
+				9D695C551D63FB7400E29E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D695C591D63FB7400E29E8D /* PBXTargetDependency */,
+			);
+			name = "cell点击的背景颜色UITests";
+			productName = "cell点击的背景颜色UITests";
+			productReference = 9D695C571D63FB7400E29E8D /* cell点击的背景颜色UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D695C2B1D63FB7400E29E8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = 123;
+				TargetAttributes = {
+					9D695C321D63FB7400E29E8D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9D695C4B1D63FB7400E29E8D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9D695C321D63FB7400E29E8D;
+					};
+					9D695C561D63FB7400E29E8D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9D695C321D63FB7400E29E8D;
+					};
+				};
+			};
+			buildConfigurationList = 9D695C2E1D63FB7400E29E8D /* Build configuration list for PBXProject "cell点击的背景颜色" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D695C2A1D63FB7400E29E8D;
+			productRefGroup = 9D695C341D63FB7400E29E8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D695C321D63FB7400E29E8D /* cell点击的背景颜色 */,
+				9D695C4B1D63FB7400E29E8D /* cell点击的背景颜色Tests */,
+				9D695C561D63FB7400E29E8D /* cell点击的背景颜色UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D695C311D63FB7400E29E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D695C461D63FB7400E29E8D /* LaunchScreen.storyboard in Resources */,
+				9D695C431D63FB7400E29E8D /* Assets.xcassets in Resources */,
+				9D695C411D63FB7400E29E8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D695C4A1D63FB7400E29E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D695C551D63FB7400E29E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D695C2F1D63FB7400E29E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D695C3E1D63FB7400E29E8D /* ViewController.m in Sources */,
+				9D695C3B1D63FB7400E29E8D /* AppDelegate.m in Sources */,
+				9D695C381D63FB7400E29E8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D695C481D63FB7400E29E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D695C511D63FB7400E29E8D /* cell_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D695C531D63FB7400E29E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D695C5C1D63FB7400E29E8D /* cell_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D695C4E1D63FB7400E29E8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D695C321D63FB7400E29E8D /* cell点击的背景颜色 */;
+			targetProxy = 9D695C4D1D63FB7400E29E8D /* PBXContainerItemProxy */;
+		};
+		9D695C591D63FB7400E29E8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D695C321D63FB7400E29E8D /* cell点击的背景颜色 */;
+			targetProxy = 9D695C581D63FB7400E29E8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D695C3F1D63FB7400E29E8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D695C401D63FB7400E29E8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D695C441D63FB7400E29E8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D695C451D63FB7400E29E8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D695C5E1D63FB7400E29E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D695C5F1D63FB7400E29E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D695C611D63FB7400E29E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "cell点击的背景颜色/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xxx.com.cn.cell-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D695C621D63FB7400E29E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "cell点击的背景颜色/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xxx.com.cn.cell-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D695C641D63FB7400E29E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "cell点击的背景颜色Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xxx.com.cn.cell-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cell点击的背景颜色.app/cell点击的背景颜色";
+			};
+			name = Debug;
+		};
+		9D695C651D63FB7400E29E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "cell点击的背景颜色Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xxx.com.cn.cell-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cell点击的背景颜色.app/cell点击的背景颜色";
+			};
+			name = Release;
+		};
+		9D695C671D63FB7400E29E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "cell点击的背景颜色UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xxx.com.cn.cell-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "cell点击的背景颜色";
+			};
+			name = Debug;
+		};
+		9D695C681D63FB7400E29E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "cell点击的背景颜色UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xxx.com.cn.cell-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "cell点击的背景颜色";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D695C2E1D63FB7400E29E8D /* Build configuration list for PBXProject "cell点击的背景颜色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D695C5E1D63FB7400E29E8D /* Debug */,
+				9D695C5F1D63FB7400E29E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D695C601D63FB7400E29E8D /* Build configuration list for PBXNativeTarget "cell点击的背景颜色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D695C611D63FB7400E29E8D /* Debug */,
+				9D695C621D63FB7400E29E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D695C631D63FB7400E29E8D /* Build configuration list for PBXNativeTarget "cell点击的背景颜色Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D695C641D63FB7400E29E8D /* Debug */,
+				9D695C651D63FB7400E29E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D695C661D63FB7400E29E8D /* Build configuration list for PBXNativeTarget "cell点击的背景颜色UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D695C671D63FB7400E29E8D /* Debug */,
+				9D695C681D63FB7400E29E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D695C2B1D63FB7400E29E8D /* Project object */;
+}
